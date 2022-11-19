@@ -1,7 +1,7 @@
 -   id: pg-formatter
-    name: pgFormatter
+    name: pgFormatter (via Docker)
     description: pre-commit hook for pgFormatter
     entry: pg_format
-    language: perl
+    language: docker
     files: \.(sql|psql)$
     args: ["-i"]
