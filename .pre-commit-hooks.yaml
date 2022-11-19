@@ -3,5 +3,5 @@
     description: pre-commit hook for pgFormatter
     entry: pg_format
     language: perl
-    files: \.(sql|psql)$
+    types: [sql]
     args: ["-i"]
