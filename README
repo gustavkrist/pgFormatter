@@ -1,3 +1,6 @@
+Fork to add .pre-commit-hooks.yaml and enable as a pre-commit hook.
+Must specify "-i" as argument in .pre-commit-config.yaml for this to work.
+
 NAME
     pg_format - PostgreSQL SQL syntax beautifier
 
