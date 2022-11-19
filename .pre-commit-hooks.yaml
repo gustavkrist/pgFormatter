@@ -1,6 +1,6 @@
 -   id: pg-formatter
     name: pgFormatter
     description: pre-commit hook for pgFormatter
-    entry: blib/script/pg_format
+    entry: pg_format
     language: perl
     files: \.(sql|psql)$
