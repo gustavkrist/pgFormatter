@@ -4,3 +4,4 @@
     entry: pg_format
     language: perl
     types: [sql]
+    args: ["-i"]
